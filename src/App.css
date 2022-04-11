@@ -1,0 +1,7 @@
+.App {
+  background:#ff6646 url(../public/images/bg-intro-desktop.png) no-repeat;
+  display: flex;
+  height: 664px;
+  padding: 50px;
+  align-items: center;
+}
