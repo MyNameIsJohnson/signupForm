@@ -35,17 +35,17 @@
   font: inherit;
   cursor: pointer;
   padding: 1rem 2rem;
-  border: 1px solid #40005d;
-  background-color: #40005d;
+  border: 1px solid #6aef3e;
+  background-color: #5cd634;
   color: white;
   border-radius: 12px;
-  margin-right: 1rem;
+  width: 100%;
 }
 
 .signup button:hover,
 .signup button:active {
-  background-color: #510674;
-  border-color: #510674;
+  background-color: #7ded58;
+  border-color: #5cd634;
 }
 
 .signup button.alternative {
@@ -97,4 +97,8 @@
 
 .signup__control p {
   color: red;
+}
+
+.form-content-right {
+  flex: 1;
 }
