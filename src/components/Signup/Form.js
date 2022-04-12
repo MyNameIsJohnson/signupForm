@@ -13,10 +13,12 @@ const Form = () => {
 
   return (
     <>
-      {!isSubmitted ? ([
-        <Header />,
-        <FormSignup submitForm={submitForm} />
-      ]) : (
+      {!isSubmitted ? (
+        <>
+          <Header />
+          <FormSignup submitForm={submitForm} />
+        </>
+        ) : (
         <FormSuccess />
       )}
     </>

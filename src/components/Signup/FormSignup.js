@@ -4,6 +4,7 @@ import validate from './validateInfo';
 
 const FormSignup = ({submitForm}) => {
   const { handleChange, handleSubmit, values, errors } = useForm(submitForm, validate);
+  // const inp = document.getElementByTagName('input');
 
   return (
     <div className="form-content-right">
@@ -14,6 +15,7 @@ const FormSignup = ({submitForm}) => {
         <div className='signup__controls'>
           <div className='signup__control'>
             <input name='firstName' placeholder='First Name' type='text' value={values.firstName} onChange={handleChange} />
+            {/* {inp.firstName.style.backgroundColor = 'red'} */}
             {errors.firstName && <p>{errors.firstName}</p>}
           </div>
           <div className='signup__control'>
