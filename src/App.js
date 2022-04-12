@@ -1,12 +1,10 @@
-import Signup from './components/Signup/Signup';
-import Header from './components/Header/Header';
 import './App.css';
+import Form from './components/Signup/Form';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Signup />
+    <div className="App">      
+      <Form />
     </div>
   );
 }
